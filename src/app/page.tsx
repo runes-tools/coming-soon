@@ -1,5 +1,5 @@
 import Image from "next/image";
-import IconFacebook from "../assets/icons/facebook.svg";
+import IconTelegram from "../assets/icons/telegram.svg";
 import IconTwitter from "../assets/icons/twitter.svg";
 import IconGithub from "../assets/icons/github.svg";
 
@@ -9,16 +9,16 @@ export default function Home() {
       <div className="card">
         <div className="header">
           <div className="logo">
-            <a href=".">LOGO</a>
+            <a href=".">Runes Tools</a>
           </div>
           <div className="social">
-            <a href="https://facebook.com" title="Facebook" target="_blank" rel="noopener noreferrer">
-              <IconFacebook className="icon" />
+            <a href="https://t.me/runestools" title="Facebook" target="_blank" rel="noopener noreferrer">
+              <IconTelegram className="icon" />
             </a>
-            <a href="https://twitter.com" title="Twitter" target="_blank" rel="noopener noreferrer">
+            <a href="." title="Twitter" target="_blank" rel="noopener noreferrer">
               <IconTwitter className="icon" />
             </a>
-            <a href="https://github.com/arkn98/coming-soon" title="GitHub" target="_blank" rel="noopener noreferrer">
+            <a href="." title="GitHub" target="_blank" rel="noopener noreferrer">
               <IconGithub className="icon" />
             </a>
           </div>
@@ -26,32 +26,22 @@ export default function Home() {
         <div className="content">
           <div className="title-holder">
             <h1>Get ready for the change.</h1>
-            <p>Website coming soon. Please check back to know more. Shoot us an email if you're curious.</p>
+            <p>Website coming soon. Please check back to know more. Join telegram channel if you're curious.</p>
           </div>
-          <a href="mailto:user@example.com">
-            <div className="cta">Send us an email</div>
+          <a href="https://t.me/runestools">
+            <div className="cta">Join Telegram Channel</div>
           </a>
         </div>
         <div className="footer">
           <span>
             made by{" "}
-            <a className="underlined" href="https://github.com/arkn98" target="_blank" rel="noopener noreferrer">
+            <a className="underlined" href="." target="_blank" rel="noopener noreferrer">
               arkn98
-            </a>{" "}
-            using{" "}
-            <a
-              className="underlined"
-              href="https://reactjs.org/"
-              title="ReactJS"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              React
             </a>{" "}
             |{" "}
             <a
               className="underlined"
-              href="https://github.com/arkn98/coming-soon"
+              href="."
               title="GitHub repo"
               target="_blank"
               rel="noopener noreferrer"
