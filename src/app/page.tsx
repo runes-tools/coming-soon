@@ -26,7 +26,7 @@ export default function Home() {
         <div className="content">
           <div className="title-holder">
             <h1>Get ready for the change.</h1>
-            <p>Website coming soon. Please check back to know more. Join telegram channel if you're curious.</p>
+            <p>Website coming soon. Please check back to know more. Join telegram channel if you&rsquo;re curious.</p>
           </div>
           <a href="https://t.me/runestools">
             <div className="cta">Join Telegram Channel</div>
